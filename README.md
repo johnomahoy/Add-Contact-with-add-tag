@@ -11,5 +11,5 @@ These are the expected data from the user: newcontactname
 	eventabbrevation\
 	eventname
   
-  Develop by: Benjie
+  Developed by: Benjie
   Check the script for more info.
