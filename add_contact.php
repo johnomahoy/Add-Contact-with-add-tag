@@ -7,6 +7,7 @@ $app = new iSDK;
 
 if( $app->cfgCon("aa478")){ 
 
+	//Get the data from the user
 	$newcontactname = $_REQUEST['newcontactname'];
 	$newcontactemail = $_REQUEST['newcontactemail'];
 	$newcontactjob = $_REQUEST['newcontactjob'];
@@ -48,6 +49,7 @@ if( $app->cfgCon("aa478")){
 	$returnFields = array('Id');
 	$contacts = $app->dsFind('ContactGroup',1,0,'GroupName',$SearchTag,$returnFields);
 		
+	//loop the data
 	foreach($contacts as $contact){
 		$tag_id = $contact['Id']; 
 	}	
