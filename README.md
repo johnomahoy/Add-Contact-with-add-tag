@@ -9,7 +9,7 @@ These are the expected data from the user: newcontactname
 	tagID\
 	SearchTag\
 	eventabbrevation\
-	eventname\
+	eventname
   
   Develop by: Benjie
   Check the script for more info.
