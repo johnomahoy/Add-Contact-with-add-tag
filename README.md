@@ -2,13 +2,13 @@
 
 This script will check and update if contact exist or create if none it will also find the tag id using the SearchTag data.
 
-These are the expected data from the user: newcontactname
-	newcontactemail\
-	newcontactjob\
-	company\
-	tagID\
-	SearchTag\
-	eventabbrevation\
+These are the expected data from the user: newcontactname  
+	newcontactemail  
+	newcontactjob  
+	company  
+	tagID  
+	SearchTag  
+	eventabbrevation  
 	eventname
 
 (1)Check for duplicate
